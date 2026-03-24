@@ -79,13 +79,7 @@ if __name__ == "__main__":
     main()
 
 
-"""
-user = input("Enter city name: ")
-print("Current Weather:")
-print(current_weather(user))
-print("\n5-Day Forecast:")
-print(five_day_forecast(user))
-"""
+
 
 
 
