@@ -35,8 +35,8 @@ def five_day_forecast(city):
                 date = day_forecast["dt_txt"][:10]
                 temp = day_forecast["main"]["temp"] - 273.15
                 description = day_forecast["weather"][0]["description"]
-                humidity = day_forecast["main"]["humidity"]        # Uncommented
-                wind_speed = day_forecast["wind"]["speed"] * 3.6   # Uncommented
+                humidity = day_forecast["main"]["humidity"]       
+                wind_speed = day_forecast["wind"]["speed"] * 3.6  
                 print(
                     f"{date}: {temp:.2f}°C, {description}, "
                     f"Humidity: {humidity}%, Wind: {wind_speed:.1f} km/h"
